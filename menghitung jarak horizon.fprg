@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="SMADA - 1"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-10-05 02:24:12 PM"/>
+        <attribute name="created" value="U01BREEgLSAxO0NMSUVOVC0xNzsyMDIzLTEwLTA1OzAyOjA3OjIzIFBNOzIzODM="/>
+        <attribute name="edited" value="U01BREEgLSAxO0NMSUVOVC0xNzsyMDIzLTEwLTA1OzAyOjI0OjEyIFBNOzE7MjQ4OA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="jarak" type="Real" array="False" size=""/>
+            <declare name="s" type="Integer" array="False" size=""/>
+            <declare name="v" type="Integer" array="False" size=""/>
+            <declare name="sinA" type="Real" array="False" size=""/>
+            <input variable="s"/>
+            <input variable="v"/>
+            <assign variable="sinA" expression="sin(2*s*3.141/180)*10"/>
+            <assign variable="jarak" expression="(v*sinA)/10"/>
+            <output expression="jarak" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
