@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="SMADA - 1"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-10-05 02:56:32 PM"/>
+        <attribute name="created" value="U01BREEgLSAxO0NMSUVOVC0xNzsyMDIzLTEwLTA1OzAyOjI1OjE1IFBNOzIzODQ="/>
+        <attribute name="edited" value="U01BREEgLSAxO0NMSUVOVC0xNzsyMDIzLTEwLTA1OzAyOjU2OjMyIFBNOzE7MjQ5NQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="s" type="Integer" array="False" size=""/>
+            <declare name="v" type="Integer" array="False" size=""/>
+            <declare name="waktu" type="Real" array="False" size=""/>
+            <declare name="sinA" type="Real" array="False" size=""/>
+            <input variable="s"/>
+            <input variable="v"/>
+            <assign variable="sinA" expression="sin(s*(22/7)/180)"/>
+            <assign variable="waktu" expression="(2*(v*sinA)) /10"/>
+            <output expression="waktu" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
